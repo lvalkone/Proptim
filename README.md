@@ -2,15 +2,13 @@
 
 Code files and data set related to preprint "Price Optimization Combining Conjoint Data and Purchase History: A Causal Modeling Approach".
 
-Preprint available here (will be added)
-
 
 ## Running instructions
 
 For running the workflow with R software:
 
 1. `data_simulation.R`
-    - Creates the population using `finns_agl.csv`
+    - Creates the population using `finns_agl.csv` (Statistics Finland (2021))
     - Simulates the purchase history and conjoint studies
     - Saves the simulated data and the true expected gross profits into `.RData` files
 2. `dosearch_transportability.R`
@@ -22,3 +20,10 @@ For running the workflow with R software:
     - Generates posterior predictive samples for calculating the estimated expected gross profit
     - Compares the estimated and the true expected gross profits
 
+
+## References
+
+Statistics Finland (2021). Population 31.12. by Information, Urban-rural classification,
+Age, Area, Year and Sex. https://pxdata.stat.fi/PxWeb/pxweb/en/StatFin/. The
+material was downloaded from Statistics Finland’s interface service on 2021-09-27 with
+the licence CC BY 4.0.
