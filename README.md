@@ -5,7 +5,7 @@ Code files and data set related to preprint "Price Optimization Combining Conjoi
 
 ## Running instructions
 
-For running the workflow with R software:
+### Running the workflow with R software:
 
 1. `simulation.R`
     - Creates the population using `finns_agl.csv` (Statistics Finland (2021))
