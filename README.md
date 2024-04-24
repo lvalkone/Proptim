@@ -20,6 +20,12 @@ For running the workflow with R software:
     - Generates posterior predictive samples for calculating the estimated expected gross profit
     - Compares the estimated and the true expected gross profits
 
+### Additional files
+
+- `model_misspecified_Q.R`, `model_misspecified_kappa.R`, `model_misspecified_prds.R`
+    - Model codes for different misspecification scenarios 
+- `mcmc.R`
+    - Code for running the model (called from the `.R` files above)
 
 ## References
 
