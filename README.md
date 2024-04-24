@@ -7,7 +7,7 @@ Code files and data set related to preprint "Price Optimization Combining Conjoi
 
 For running the workflow with R software:
 
-1. `data_simulation.R`
+1. `simulation.R`
     - Creates the population using `finns_agl.csv` (Statistics Finland (2021))
     - Simulates the purchase history and conjoint studies
     - Saves the simulated data and the true expected gross profits into `.RData` files
